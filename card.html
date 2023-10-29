@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media query css</title>
+    <link href="interncss/cardcss.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+         <div class="header">
+            <div class="header_logo">Miya Ruma</div>
+            <div class="header_menu">
+            <div class="header_menu-1">Home</div>
+            <div class="header_menu-2">Portfolio</div>
+            <div class="header_menu-3">Contact</div>
+            </div>
+         </div> 
+         <div class="main">
+            <div class="main_image"></div>
+            <div class="main_text">
+                <div class="main_text-1">Hello 👋</div>
+                <div class="main_text-2">I'm <span>Miya Ruma</span></div>
+                <div class="main_text-3">A Designer From</div>
+                <div class="main_text-4">Tokyo, Japan</div>
+            </div>
+         </div>
+          <div class="footer">
+            <div class="footer_instagram">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUW8_2xflThAf1MA2NKFrZ5P6uc6T3yuMh4dfqyPpIDw&s" alt="" style="width:2.3vw">
+            </div>
+            <div class="footer_twitter">
+                <img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-twitter-social-media-round-icon-png-image_6315985.png" alt="" style="width:2.3vw">
+            </div>
+            <div class="footer_dribbble">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9uk2OHu1EdKzrMAxTKIgMnm0_gZA2-k2litymeTd2&s" alt="" style="width:3.3vw">
+            </div>
+            <div class="footer_behance">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhCH_0yo8SaG9-4xLDvujvqHTExZdl9xoWnq8--Wg&s" alt="" style="width:2.3vw">
+            </div>
+          </div>
+        <!---<div id="size">
+    
+        </div>--->
+    </div>
+    <script>
+        window.onresize = screen;
+        window.onload = screen;
+
+        function screen(){
+            myWidth = window.innerWidth;
+        }
+        document.getElementById("size").innerHTML = "width : " + myWidth + "px";
+    </script>
+</body>
+</html>
