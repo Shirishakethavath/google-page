@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Googlepage</title>
-    <link href="interncss/googlepagecss.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
 </head>
@@ -13,13 +13,16 @@
        <div class="container">
 
         <!---left-container start from here-->
-            <div class="left-container" id="left-c">
+            <div class="left-container">
                   <div class="add-note">
                       <h2> (+) Add Note </h2> 
                       <div class="taskinput">
-                      <input type="text" placeholder="Enter a new task">
+                      <input type="text" placeholder="Enter a new task" id="inputbx">
                       </div>
-                      <button>Add</button>
+                      <button id="add">Add</button>
+                      <ul id="task-list">
+                
+                      </ul>
                   </div>  
 
                   <div class="add-note">
@@ -119,6 +122,6 @@
    
         
 
-   <script src="internjs/googlepagejs.js"></script> 
+   <script src="script.js"></script> 
 </body>
 </html>
